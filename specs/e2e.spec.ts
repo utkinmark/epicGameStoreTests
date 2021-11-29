@@ -1,6 +1,6 @@
-import { gamePersonalPage } from '../PO/gamePersonalPage'
-import { mainPage } from '../PO/mainPage'
-import { authorizePage } from '../PO/authorizePage'
+import { gamePersonalPage } from '../src/PO/gamePersonalPage'
+import { mainPage } from '../src/PO/mainPage'
+import { authorizePage } from '../src/PO/authorizePage'
 
 describe('epicgames store e2e test', function () {
 

@@ -6,7 +6,6 @@ export class mainPage extends basePage {
         browser.waitForAngularEnabled(false);
         browser.driver.manage().window().maximize()
         browser.get('https://www.epicgames.com/store/ru/');
-        await browser.sleep(10000)
     }
 
     searchField() {

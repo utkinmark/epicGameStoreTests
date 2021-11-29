@@ -11,7 +11,7 @@ export const config: Config = {
         }*/
     },
     specs: [
-        "tests/*test.js",
+        "specs/*spec.js",
     ],
     onPrepare: function() {
         // Add a screenshot reporter and store screenshots to `/Reports/screenshots`:
